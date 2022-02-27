@@ -1,8 +1,12 @@
 # Svelte Portfolio 🔥
-Portfolio template made by using Svelte.
-
+Fully responsive portfolio template made by using Svelte.
 - Easy to configure.
 - Dark/Light modes.
+<br/>
+Example site : https://sehan.vercel.app/
+
+## Screenshots 📷
+<img src="https://raw.githubusercontent.com/s3h4n/svelte-portfolio/main/public/preview.png">
 
 ## Installation ✨
 Clone this repository.

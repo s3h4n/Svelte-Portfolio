@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+
+:root {
+	--dark: #1d1f37 !important;
+	--light: #efefef !important;
+}
+
+.bg-dark {
+	background-color: var(--dark) !important;
+}
+
+.bg-primary {
+	background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%) !important;
+}
+
+.border-primary {
+	border-color: var(--primary) !important;
+}
+
+.btn-primary {
+	color: var(--dark);
+	background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%) !important;
+	border-color: var(--primary) !important;
+}
+
+.btn-primary:hover {
+	color: var(--dark);
+	background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%) !important;
+	border-color: var(--primary) !important;
+}
+
+.text-primary {
+	background: -webkit-linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-link:hover {
+	background: -webkit-linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-bottom: .2em solid;
+	border-image: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+	border-image-slice: 1;
+
+}
+
+.bg-pattern {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3cpath d='M633.4 625.28C767.06 610.3 849.1 316.61 1073.42 315.76 1297.75 314.91 1398.44 448.67 1513.45 450.16' stroke='rgba(0%2c 176%2c 227%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3cpath d='M474.68 606.17C622.16 546.8 557.51 96.69 851.03 93.56 1144.54 90.43 1409.63 282.49 1603.72 283.96' stroke='rgba(0%2c 176%2c 227%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3cpath d='M541.21 608.62C708.32 591.86 788.81 249.11 1099.28 234.62 1409.74 220.13 1511.24 63.01 1657.34 61.02' stroke='rgba(0%2c 176%2c 227%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3cpath d='M539.73 570.38C641.16 552.95 586.15 318.65 852.45 302.65 1118.76 286.65 1310.4 65.96 1477.9 61.85' stroke='rgba(0%2c 176%2c 227%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3cpath d='M496.29 586.98C641.55 577.42 726.11 311.75 1003.88 301.6 1281.65 291.45 1377.82 135.76 1511.47 133.6' stroke='rgba(0%2c 176%2c 227%2c 0.9)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+	background-attachment: fixed;
+	background-size: cover;
+}

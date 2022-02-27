@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 :root {
 	--dark: #1d1f37 !important;
 	--light: #efefef !important;
+	--color-1: #00c6ff;
+	--color-2: #0072ff;
 }
 
 .bg-dark {
@@ -17,7 +19,7 @@ html, body {
 }
 
 .bg-primary {
-	background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%) !important;
+	background: linear-gradient(90deg, var(--color-1) 0%, var(--color-2) 100%) !important;
 }
 
 .border-primary {
@@ -26,28 +28,28 @@ html, body {
 
 .btn-primary {
 	color: var(--dark);
-	background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%) !important;
+	background: linear-gradient(90deg, var(--color-1) 0%, #0072ff 100%) !important;
 	border-color: var(--primary) !important;
 }
 
 .btn-primary:hover {
 	color: var(--dark);
-	background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%) !important;
+	background: linear-gradient(90deg, var(--color-1) 0%, #0072ff 100%) !important;
 	border-color: var(--primary) !important;
 }
 
 .text-primary {
-	background: -webkit-linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+	background: -webkit-linear-gradient(90deg, var(--color-1) 0%, #0072ff 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .nav-link:hover {
-	background: -webkit-linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+	background: -webkit-linear-gradient(90deg, var(--color-1) 0%, #0072ff 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	border-bottom: .2em solid;
-	border-image: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+	border-image: linear-gradient(90deg, var(--color-1) 0%, #0072ff 100%);
 	border-image-slice: 1;
 
 }

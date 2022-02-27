@@ -7,14 +7,23 @@ Portfolio template made by using Svelte.
 ## Installation ✨
 Clone this repository.
 ```bash
-git clone https://github.com/s3h4n/Svelte-Portfolio.git
+git clone https://github.com/s3h4n/svelte-portfolio.git
 ```
-Install using dependencies.
+Change directory.
+```bash
+cd svelte-portfolio
+```
+Install dependencies.
 ```bash
 npm install
 ```
 
 ## Usage 📚
+Open project in a code editor. 
+Example: VScode
+```bash
+code .
+```
 Run following command to start the development server.
 ```bash
 npm run dev

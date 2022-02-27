@@ -25,7 +25,7 @@
   "main": "rollup.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s3h4n/portfolio.git"
+    "url": "git+https://github.com/s3h4n/svelte-portfolio.git"
   },
   "keywords": [
     "sehan",
@@ -34,7 +34,7 @@
   "author": "Sehan Weerasekara",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/s3h4n/portfolio/issues"
+    "url": "+https://github.com/s3h4n/svelte-portfolio/issues"
   },
-  "homepage": "https://github.com/s3h4n/portfolio#readme"
+  "homepage": "+https://github.com/s3h4n/svelte-portfolio#readme"
 }

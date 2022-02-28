@@ -10,10 +10,8 @@
     export let Id;
     // Section title
     export let contact_title;
-    // Email button text
-    export let btn_text;
-    // Your email
-    export let email;
+    // Social media links
+    export let social;
     // theme toggle
     export let state;
 
@@ -44,19 +42,23 @@
                 </div>
                 <!-- Section title -->
 
+                <hr />
+
                 <!-- Section Data -->
                 <div in:fade={{ delay: 500, duration: 1000 }}>
-                    <form action="mailto:{email}">
-                        <!-- Submit button -->
-                        <button
-                            type="submit"
-                            class="btn btn-primary btn-block text-center text-light mb-4"
-                            id="submit"
-                        >
-                            {btn_text}
-                        </button>
-                        <!-- Submit button -->
-                    </form>
+                    <h1 class="text-primary text-center">
+                        <!-- Social Media -->
+                        {#each social as item}
+                            <a
+                                class="btn shadow-sm mx-1"
+                                href={item[2]}
+                                role="button"
+                            >
+                                <i class="h3 {item[1]}" />
+                            </a>
+                        {/each}
+                        <!-- Social Media -->
+                    </h1>
                 </div>
                 <!-- Section Data -->
 

@@ -77,8 +77,13 @@
 	 * -------------------- Contact Section --------------------
 	 */
 	let contact_title = "Contact Me";
-	let email = "";
-	let btn_text = "Send Email";
+	let social = [
+		["LinkedIn", "fab fa-linkedin", "#"],
+		["Email", "fas fa-envelope", "mailto:#"],
+		["Twitter", "fab fa-twitter", "#"],
+		["YouTube", "fab fa-youtube", "#"],
+		["Github", "fab fa-github", github],
+	];
 
 	/**
 	 * -------------------- Theme Toggle --------------------
@@ -106,7 +111,7 @@
 		/>
 		<About Id="about" {bio_title} {bio} {skills_title} {skills} {state} />
 		<Projects Id="projects" {projects_title} {projects} {state} />
-		<Contact Id="contact" {contact_title} {email} {btn_text} {state} />
+		<Contact Id="contact" {contact_title} {social} {state} />
 		<Footer Id="footer" {brand} {state} />
 	</div>
 </main>

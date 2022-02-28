@@ -36,7 +36,7 @@
         <!-- Left Section -->
         <Saos animation={""}>
             {#if ready}
-                <div class="col-md-6 mb-3">
+                <div class="col-md-6 mb-3 text-uppercase">
                     <!-- Title 1 -->
                     <span
                         in:fade={{ duration: 1000 }}
